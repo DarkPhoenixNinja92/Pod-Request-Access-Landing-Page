@@ -4,4 +4,30 @@
         background-repeat: no-repeat;
         background-position: right;
     }
+    .publish {
+        width: 60vw;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .upload {
+        width: 45vw;
+        text-align: left;
+    }
+    .logo-div {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 50%;
+        .spotify,
+        .apple,
+        .google,
+        .pocket {
+            position: relative;
+            left: 6.5em;
+            top: 12.5em;
+            margin-left: 1em;
+        }
+    }
+    .main-content {
+        width: 60vw;
+    }
 }

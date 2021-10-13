@@ -11,6 +11,11 @@ body {
   background-color: #121725;
 }
 
+.main-content {
+  background-color: #121725;
+  z-index: 100;
+}
+
 .title {
   color: white;
 }
@@ -85,5 +90,35 @@ body {
     background-image: url("../images/mobile/image-host.jpg");
     background-repeat: no-repeat;
     background-position: right;
+  }
+
+  .publish {
+    width: 60vw;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .upload {
+    width: 45vw;
+    text-align: left;
+  }
+
+  .logo-div {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+  }
+  .logo-div .spotify,
+.logo-div .apple,
+.logo-div .google,
+.logo-div .pocket {
+    position: relative;
+    left: 6.5em;
+    top: 12.5em;
+    margin-left: 1em;
+  }
+
+  .main-content {
+    width: 60vw;
   }
 }/*# sourceMappingURL=styles.css.map */

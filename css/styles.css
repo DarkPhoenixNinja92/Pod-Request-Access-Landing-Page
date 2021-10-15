@@ -85,6 +85,10 @@ body {
   margin-top: 3em;
 }
 
+.dots {
+  display: none;
+}
+
 @media (min-width: 768px) {
   body {
     background-image: url("../images/mobile/image-host.jpg");
@@ -126,5 +130,30 @@ body {
     position: relative;
     width: 40vw;
     right: 5em;
+  }
+
+  .dots {
+    display: initial;
+    position: relative;
+    top: 7em;
+  }
+
+  .access {
+    padding: 14px 15px;
+    bottom: 6.6em;
+    left: 13.2em;
+  }
+}
+@media (min-width: 1440px) {
+  .dots {
+    display: initial;
+    position: relative;
+    left: 78em;
+    top: 2em;
+  }
+
+  .access {
+    bottom: 6.56em;
+    left: 33.5em;
   }
 }/*# sourceMappingURL=styles.css.map */

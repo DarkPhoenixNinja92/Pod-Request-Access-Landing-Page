@@ -16,6 +16,10 @@ body {
   z-index: 100;
 }
 
+.error {
+  color: red;
+}
+
 .title {
   color: white;
 }

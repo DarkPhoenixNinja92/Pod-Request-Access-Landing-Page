@@ -1,6 +1,6 @@
 const mailSubmit = document.querySelector(".access");
 const errorMsg = document.querySelector(".error");
-const emailVar = document.querySelectorAll(".email");
+const emailVar = document.querySelector(".email");
 
 mailSubmit.addEventListener('click', (e) => {
     e.preventDefault();
